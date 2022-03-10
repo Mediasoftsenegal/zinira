@@ -1,0 +1,480 @@
+[20-Jan-2022 14:33:58 UTC] PHP Notice:  Undefined index: nom_client in /home/remacons/public_html/zinira/facture.php on line 383
+[20-Jan-2022 15:22:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/mesures.php:341
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 341
+[20-Jan-2022 15:25:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/mesures.php:398
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 398
+[20-Jan-2022 15:27:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/mesures.php:398
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 398
+[20-Jan-2022 15:31:22 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 427
+[20-Jan-2022 15:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:427
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 427
+[20-Jan-2022 15:37:51 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 434
+[20-Jan-2022 15:37:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:434
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 434
+[20-Jan-2022 15:39:52 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 15:39:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 15:41:18 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 15:41:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 15:54:09 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 19:47:27 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 19:47:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 19:48:09 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 19:48:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 19:48:38 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 19:48:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 20:18:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/client.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/client.php on line 262
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:19:13 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:32:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/client.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/client.php on line 262
+[20-Jan-2022 20:38:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/client.php:262
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/client.php on line 262
+[20-Jan-2022 20:40:47 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 20:40:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:401
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 401
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:45:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:45:54 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 20:46:00 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:09:56 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/access.php on line 21
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:10:32 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:10:37 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 246
+[20-Jan-2022 21:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:246
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 246
+[20-Jan-2022 21:12:28 UTC] PHP Notice:  Undefined index: nom_client in /home/remacons/public_html/zinira/facture.php on line 383
+[20-Jan-2022 21:13:09 UTC] PHP Notice:  Undefined index: nom_client in /home/remacons/public_html/zinira/facture.php on line 383
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:13:48 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:19:00 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 246
+[20-Jan-2022 21:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:246
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 246
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:19:07 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/mesure.php on line 504
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 505
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 506
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 507
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 508
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 509
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 510
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 511
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 512
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 513
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 514
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 515
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 516
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 517
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 518
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 519
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 520
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 521
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 522
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 523
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 524
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Undefined variable: res in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:19:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/mesure.php on line 525
+[20-Jan-2022 21:28:14 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/access.php on line 21
+[20-Jan-2022 22:06:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/mesure.php:444
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesure.php on line 444
+[21-Jan-2022 15:42:16 UTC] PHP Notice:  Undefined variable: reponse in /home/remacons/public_html/zinira/mesures.php on line 246
+[21-Jan-2022 15:42:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function closeCursor() on null in /home/remacons/public_html/zinira/mesures.php:246
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/mesures.php on line 246
+[21-Jan-2022 17:40:39 UTC] PHP Notice:  Undefined variable: pdo in /home/remacons/public_html/zinira/insert.php on line 13
+[21-Jan-2022 17:40:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/remacons/public_html/zinira/insert.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/insert.php on line 13

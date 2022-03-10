@@ -1,0 +1,1504 @@
+[17-Feb-2022 15:04:50 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/facture/facture.php on line 28
+[17-Feb-2022 15:05:47 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/remacons/public_html/zinira/facture/facture.php on line 27
+[17-Feb-2022 15:05:55 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/remacons/public_html/zinira/facture/facture.php on line 27
+[17-Feb-2022 15:13:29 UTC] PHP Warning:  array_keys() expects parameter 1 to be array, string given in /home/remacons/public_html/zinira/facture/facture.php on line 7
+[17-Feb-2022 15:13:29 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/remacons/public_html/zinira/pages/header.php:1) in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(16): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php on line 271
+[17-Feb-2022 15:14:45 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/remacons/public_html/zinira/pages/header.php:1) in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(17): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php on line 271
+[17-Feb-2022 15:20:45 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file (output started at /home/remacons/public_html/zinira/pages/header.php:1) in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(1049): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(30): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf184/fpdf.php on line 271
+[17-Feb-2022 15:53:51 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/facture/facture.php on line 8
+[17-Feb-2022 15:53:51 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 15:53:51 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 15:53:51 UTC] PHP Fatal error:  require(): Failed opening required '../fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:08 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/facture/facture.php on line 8
+[17-Feb-2022 16:04:08 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:08 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:08 UTC] PHP Fatal error:  require(): Failed opening required '../fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:22 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/facture/facture.php on line 8
+[17-Feb-2022 16:04:22 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:22 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[17-Feb-2022 16:04:22 UTC] PHP Fatal error:  require(): Failed opening required '../fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/facture/facture.php on line 25
+[21-Feb-2022 13:08:20 UTC] PHP Notice:  Undefined variable: _SESSION in /home/remacons/public_html/zinira/facture/facture.php on line 5
+[21-Feb-2022 13:08:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/facture/facture.php on line 5
+[21-Feb-2022 13:08:20 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/facture/facture.php on line 5
+[21-Feb-2022 13:13:11 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 6
+[21-Feb-2022 13:16:37 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 8
+[21-Feb-2022 16:31:38 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:31:38 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:45:22 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:45:22 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:47:44 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:47:44 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:47:53 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:47:53 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:48:11 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:48:11 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:50:47 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 4
+[21-Feb-2022 16:50:47 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:50:55 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:55:26 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 11
+[21-Feb-2022 16:57:00 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 13
+[21-Feb-2022 16:57:16 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/facture.php on line 13
+[21-Feb-2022 17:03:49 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/facture/facture.php on line 16
+[21-Feb-2022 17:18:06 UTC] PHP Notice:  Undefined variable: panier in /home/remacons/public_html/zinira/facture/facture.php on line 16
+[21-Feb-2022 17:18:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function count() on null in /home/remacons/public_html/zinira/facture/facture.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 16
+[21-Feb-2022 17:29:32 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 17:29:32 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 17:29:32 UTC] PHP Fatal error:  require(): Failed opening required '../fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 17:34:52 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 17:34:52 UTC] PHP Warning:  require(../fpdf/fpdf.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 17:34:52 UTC] PHP Fatal error:  require(): Failed opening required '../fpdf/fpdf.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/facture/facture.php on line 10
+[21-Feb-2022 18:03:31 UTC] PHP Fatal error:  Uncaught Error: Class 'PDF' not found in /home/remacons/public_html/zinira/facture/facture.php:12
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 12
+[21-Feb-2022 18:07:33 UTC] PHP Fatal error:  Uncaught Error: Class 'PDF' not found in /home/remacons/public_html/zinira/facture/facture.php:37
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 37
+[22-Feb-2022 16:34:05 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: The document is closed in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1450): FPDF->Error('The document is...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(519): FPDF->_out('BT /F1 10.00 Tf...')
+#2 /home/remacons/public_html/zinira/facture/facture.php(25): FPDF->SetFont('helvetica', 'B', 10)
+#3 /home/remacons/public_html/zinira/facture/facture.php(38): PDF->headerTable()
+#4 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[22-Feb-2022 17:29:27 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 36
+[22-Feb-2022 17:29:27 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:30:20 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:30:20 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[22-Feb-2022 17:30:20 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[22-Feb-2022 17:30:20 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[22-Feb-2022 17:31:05 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:31:05 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[22-Feb-2022 17:31:05 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[22-Feb-2022 17:31:05 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[22-Feb-2022 17:31:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:31:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[22-Feb-2022 17:31:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[22-Feb-2022 17:31:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[22-Feb-2022 17:33:32 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:33:32 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[22-Feb-2022 17:33:32 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[22-Feb-2022 17:33:32 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[22-Feb-2022 17:34:55 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[22-Feb-2022 17:34:55 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[22-Feb-2022 17:34:55 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[22-Feb-2022 17:34:55 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:55:18 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 5 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 6 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 46
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 47
+[23-Feb-2022 14:56:22 UTC] PHP Notice:  Undefined offset: 7 in /home/remacons/public_html/zinira/facture/facture.php on line 48
+[23-Feb-2022 14:56:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:20
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(334): PDF->Header()
+#1 /home/remacons/public_html/zinira/facture/facture.php(110): FPDF->AddPage()
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 20
+[23-Feb-2022 14:57:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:20
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(334): PDF->Header()
+#1 /home/remacons/public_html/zinira/facture/facture.php(110): FPDF->AddPage()
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 20
+[23-Feb-2022 15:01:44 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:01:44 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:01:44 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:01:44 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:28:43 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:28:43 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:28:43 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:28:43 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:28:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:81
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(119): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 81
+[23-Feb-2022 15:32:14 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:32:14 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:32:14 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:32:14 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:32:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:81
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(119): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 81
+[23-Feb-2022 15:36:33 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:36:33 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:36:33 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:36:33 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:36:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:81
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(119): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 81
+[23-Feb-2022 15:36:59 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:36:59 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:36:59 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:36:59 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:37:30 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:37:30 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:37:30 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:37:30 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:39:36 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:39:36 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:39:36 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:39:36 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:39:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:85
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(119): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 85
+[23-Feb-2022 15:40:54 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 15:40:54 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 15:40:54 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 15:40:54 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 15:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetchAll() on bool in /home/remacons/public_html/zinira/facture/facture.php:85
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(119): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 85
+[23-Feb-2022 16:02:26 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:02:26 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:02:26 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:02:26 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:02:26 UTC] PHP Fatal error:  Cannot declare class DB, because the name is already in use in /home/remacons/public_html/zinira/panier/db.class.php on line 2
+[23-Feb-2022 16:17:38 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:17:38 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:17:38 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:17:38 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:17:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:82
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(283): PDF->Footer()
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(983): FPDF->Close()
+#2 /home/remacons/public_html/zinira/facture/facture.php(120): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 82
+[23-Feb-2022 16:19:02 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:19:02 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:19:02 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:19:02 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:26:27 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:26:27 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:26:27 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:26:27 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:27:01 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:27:01 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:27:01 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:27:01 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:27:52 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:27:52 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:27:52 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:27:52 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:29:07 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:29:07 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:29:07 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:29:07 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:30:30 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:30:30 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:30:30 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:30:30 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:30:30 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 101
+[23-Feb-2022 16:31:19 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 39
+[23-Feb-2022 16:31:19 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 40
+[23-Feb-2022 16:31:19 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 41
+[23-Feb-2022 16:31:19 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:31:19 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 101
+[23-Feb-2022 16:36:20 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[23-Feb-2022 16:36:20 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 43
+[23-Feb-2022 16:36:20 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[23-Feb-2022 16:36:20 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[23-Feb-2022 16:36:20 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 104
+[23-Feb-2022 16:36:20 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(123): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[23-Feb-2022 20:49:01 UTC] PHP Notice:  Undefined index: id_client in /home/remacons/public_html/zinira/facture/facture.php on line 22
+[23-Feb-2022 20:49:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facture.php:23
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(334): PDF->Header()
+#1 /home/remacons/public_html/zinira/facture/facture.php(117): FPDF->AddPage()
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facture.php on line 23
+[23-Feb-2022 20:50:52 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 104
+[24-Feb-2022 15:05:19 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[24-Feb-2022 15:05:19 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 43
+[24-Feb-2022 15:05:19 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[24-Feb-2022 15:05:19 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[24-Feb-2022 15:05:19 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 104
+[25-Feb-2022 13:52:31 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/facture.php on line 42
+[25-Feb-2022 13:52:31 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/facture.php on line 43
+[25-Feb-2022 13:52:31 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/facture.php on line 44
+[25-Feb-2022 13:52:31 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/facture.php on line 45
+[25-Feb-2022 13:52:31 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/facture.php on line 104
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 101
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 105
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 109
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 113
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 119
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 123
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 127
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 131
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 137
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 141
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 149
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 155
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 159
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 163
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 169
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 173
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 177
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 183
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 187
+[25-Feb-2022 15:25:10 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 191
+[25-Feb-2022 15:25:37 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 15:32:24 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 15:32:24 UTC] PHP Warning:  time() expects exactly 0 parameters, 1 given in /home/remacons/public_html/zinira/facture/fact.php on line 197
+[25-Feb-2022 15:33:01 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 15:54:46 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 16:00:37 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 16:00:54 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 16:00:57 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:00:57 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:02:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:02:17 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:02:49 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:02:49 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:03:20 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:03:20 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 16:05:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 16:05:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 16:05:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 16:05:54 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 16:05:54 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:05:54 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:06:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:06:17 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:07:12 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:07:12 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:07:53 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:07:53 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:08:17 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:08:17 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:08:34 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:08:34 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:09:00 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:09:00 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:09:50 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:09:50 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:10:20 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:10:20 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:10:51 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:10:51 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:11:11 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:11:11 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:11:30 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:11:30 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:12:04 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:12:04 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:12:23 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:12:23 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:12:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:12:43 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:13:41 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:13:41 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:13:57 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:13:57 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:14:12 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:14:12 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:14:33 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:14:33 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:14:49 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:14:49 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:15:14 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:15:14 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:15:39 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:15:39 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:16:13 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:16:13 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:16:44 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:16:44 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:17:20 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:17:20 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:17:42 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:17:42 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:18:10 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:18:10 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:18:32 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:18:32 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:18:53 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:18:53 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:19:16 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:19:16 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:19:46 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:19:46 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:20:13 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:20:13 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:20:48 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:20:48 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:21:42 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:21:42 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:22:33 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:22:33 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:22:56 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:22:56 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:24:02 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:24:02 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:24:43 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:24:43 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:25:18 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[25-Feb-2022 16:25:18 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 95
+[25-Feb-2022 16:50:55 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 16:51:14 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 16:51:37 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 107
+[25-Feb-2022 16:53:56 UTC] PHP Notice:  Uninitialized string offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 63
+[25-Feb-2022 16:53:56 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 107
+[25-Feb-2022 16:57:30 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 61
+[25-Feb-2022 16:57:30 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 62
+[25-Feb-2022 16:57:30 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 63
+[25-Feb-2022 16:57:30 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 64
+[25-Feb-2022 16:57:30 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 107
+[25-Feb-2022 16:59:02 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 62
+[25-Feb-2022 16:59:02 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 63
+[25-Feb-2022 16:59:02 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 64
+[25-Feb-2022 16:59:02 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 65
+[25-Feb-2022 16:59:02 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[25-Feb-2022 16:59:02 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(140): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[25-Feb-2022 17:01:08 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 62
+[25-Feb-2022 17:01:08 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 63
+[25-Feb-2022 17:01:08 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 64
+[25-Feb-2022 17:01:08 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 65
+[25-Feb-2022 17:01:08 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[25-Feb-2022 17:01:08 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(140): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[25-Feb-2022 17:01:14 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 17:01:17 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 17:01:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 17:01:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 17:01:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 412
+[25-Feb-2022 17:01:29 UTC] PHP Warning:  strpos() expects parameter 1 to be string, array given in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 1212
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Array to string conversion in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 634
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 62
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 63
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 64
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/facture.php on line 65
+[25-Feb-2022 17:01:29 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[25-Feb-2022 17:01:29 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Some data has already been output, can't send PDF file in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1060): FPDF->Error('Some data has a...')
+#1 /home/remacons/public_html/zinira/fpdf/fpdf.php(999): FPDF->_checkoutput()
+#2 /home/remacons/public_html/zinira/facture/facture.php(140): FPDF->Output()
+#3 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[25-Feb-2022 17:02:33 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[25-Feb-2022 17:33:17 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 17:33:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/etat.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/etat.php on line 46
+[25-Feb-2022 18:31:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/remacons/public_html/zinira/facture/modif_etat.php:95
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/modif_etat.php on line 95
+[25-Feb-2022 18:33:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/remacons/public_html/zinira/facture/fonction.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fonction.php on line 16
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 29
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 35
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 43
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 49
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 55
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 55
+[25-Feb-2022 18:37:43 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/modif_etat.php on line 60
+[25-Feb-2022 18:38:31 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[25-Feb-2022 18:38:54 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[25-Feb-2022 18:39:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/remacons/public_html/zinira/facture/fonction.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fonction.php on line 16
+[25-Feb-2022 18:41:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on bool in /home/remacons/public_html/zinira/facture/fonction.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fonction.php on line 16
+[26-Feb-2022 15:55:06 UTC] PHP Notice:  Undefined variable: panier in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 15:55:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function count() on null in /home/remacons/public_html/zinira/facture/fact.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 15:55:17 UTC] PHP Notice:  Undefined variable: panier in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 15:55:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function count() on null in /home/remacons/public_html/zinira/facture/fact.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 16:01:29 UTC] PHP Notice:  Undefined variable: panier in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 16:01:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function count() on null in /home/remacons/public_html/zinira/facture/fact.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 16:01:32 UTC] PHP Notice:  Undefined variable: panier in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 16:01:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function count() on null in /home/remacons/public_html/zinira/facture/fact.php:58
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fact.php on line 58
+[26-Feb-2022 16:26:56 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 16:35:10 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 16:48:51 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 16:49:19 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 17:28:15 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 17:28:46 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 17:28:46 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 17:47:04 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:48:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:49:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 101
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 105
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 109
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 113
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 119
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 123
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 127
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 131
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 137
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 141
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 149
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 155
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 159
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 163
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 169
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 173
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 177
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 183
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 187
+[26-Feb-2022 17:50:17 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 191
+[26-Feb-2022 17:50:22 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 17:50:22 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 17:50:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:50:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:52:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:52:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:57:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:57:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 17:57:55 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 17:57:55 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 17:58:33 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 17:58:33 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 17:58:51 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 17:58:51 UTC] PHP Notice:  Undefined index: montpayé in /home/remacons/public_html/zinira/facture/etat.php on line 57
+[26-Feb-2022 18:00:32 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:00:32 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:01:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:01:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:25:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:25:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:46:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:46:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:49:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:49:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 101
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 105
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 109
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 113
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 119
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 123
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 127
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 131
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 137
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 141
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 149
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 155
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 159
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 163
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 169
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 173
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 177
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 183
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 187
+[26-Feb-2022 18:49:45 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 191
+[26-Feb-2022 18:49:59 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 18:49:59 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 18:55:35 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:55:35 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:55:35 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:55 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:55 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:56:55 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 18:59:43 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 18:59:43 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 18:59:43 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 18:59:43 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 18:59:43 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 18:59:54 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 18:59:54 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 19:01:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:01:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:01:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:01:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:15:47 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:21:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:21:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:21:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:21:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:26:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:26:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:26:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:26:00 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:45:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:47:22 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 19:47:32 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 19:47:32 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 19:51:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:51:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:51:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:51:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:51:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:52:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 19:52:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 19:52:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 19:52:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 19:52:48 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 19:52:55 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 19:52:55 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:55:53 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:56:39 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 19:57:24 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 19:57:28 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 19:57:28 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:06:24 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:10:03 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:12:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:13:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:14:24 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 20:14:28 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 20:14:28 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 20:17:19 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 20:17:25 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 20:17:25 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:19:12 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 4 in /home/remacons/public_html/zinira/facture/fact.php on line 60
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 4 in /home/remacons/public_html/zinira/facture/fact.php on line 61
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 4 in /home/remacons/public_html/zinira/facture/fact.php on line 62
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined offset: 4 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[26-Feb-2022 20:20:02 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[26-Feb-2022 20:20:06 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[26-Feb-2022 20:20:06 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:13 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:31:31 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:32:50 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:39:06 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 59
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  date_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 62
+[26-Feb-2022 20:43:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 20:44:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:01:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 63
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:17:43 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:18:10 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 64
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:21:28 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 67
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:34 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:31:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:33:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 69
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:35:08 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:37:45 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:43:22 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:09 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:44:46 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:46:15 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:50:20 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 21:51:38 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:17:05 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:20:29 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[26-Feb-2022 23:32:11 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:05:40 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:29:37 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:34:17 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:36:21 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[27-Feb-2022 00:37:57 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:48 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:43:51 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:45:14 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:18 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:46:23 UTC] PHP Notice:  Undefined index:  numero_facture in /home/remacons/public_html/zinira/facture/facturation.php on line 70
+[01-Mar-2022 12:48:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facturation.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facturation.php on line 47
+[01-Mar-2022 12:49:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/facturation.php:47
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/facturation.php on line 47
+[01-Mar-2022 13:45:50 UTC] PHP Notice:  Undefined index: des in /home/remacons/public_html/zinira/facture/fact.php on line 7
+[01-Mar-2022 13:45:50 UTC] PHP Notice:  Undefined index: qty in /home/remacons/public_html/zinira/facture/fact.php on line 8
+[01-Mar-2022 13:45:50 UTC] PHP Notice:  Undefined index: price in /home/remacons/public_html/zinira/facture/fact.php on line 9
+[01-Mar-2022 13:45:50 UTC] PHP Notice:  Undefined index: subtot in /home/remacons/public_html/zinira/facture/fact.php on line 10
+[01-Mar-2022 13:45:50 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 13:54:53 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 13:58:42 UTC] PHP Warning:  A non-numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 84
+[01-Mar-2022 13:58:42 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 15:37:22 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 15:39:06 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 15:39:28 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 15:40:21 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 145
+[01-Mar-2022 15:51:48 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[01-Mar-2022 15:52:10 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 15:55:18 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[01-Mar-2022 15:55:25 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 15:59:19 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[01-Mar-2022 16:02:04 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:04:16 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:07:32 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[01-Mar-2022 16:07:45 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:09:19 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:09:38 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:10:46 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:12:16 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:12:16 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 111
+[01-Mar-2022 16:13:10 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 108
+[01-Mar-2022 16:13:10 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 111
+[01-Mar-2022 16:14:07 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 111
+[02-Mar-2022 12:36:24 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:37:16 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:39:08 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:40:07 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:40:43 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 12:41:57 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 12:53:36 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:54:21 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 90
+[02-Mar-2022 12:54:21 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 91
+[02-Mar-2022 12:54:21 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 12:54:25 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 90
+[02-Mar-2022 12:54:25 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 91
+[02-Mar-2022 12:54:25 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 12:55:30 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:55:44 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:56:06 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:59:36 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 12:59:56 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:00:12 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 90
+[02-Mar-2022 13:00:12 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 91
+[02-Mar-2022 13:00:12 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 13:01:43 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:02:14 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 90
+[02-Mar-2022 13:02:14 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 91
+[02-Mar-2022 13:02:14 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 13:05:56 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:06:06 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 90
+[02-Mar-2022 13:06:06 UTC] PHP Notice:  A non well formed numeric value encountered in /home/remacons/public_html/zinira/facture/facture.php on line 91
+[02-Mar-2022 13:06:06 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 13:08:29 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 13:11:21 UTC] PHP Notice:  Undefined index: longueur in /home/remacons/public_html/zinira/facture/facture.php on line 117
+[02-Mar-2022 13:13:41 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:13:41 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:13:41 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:13:41 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:13:41 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:14:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:14:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:14:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:14:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:14:14 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:15:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 69
+[02-Mar-2022 13:15:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:17:36 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:22:42 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:24:59 UTC] PHP Notice:  Undefined index: tourfesse in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 13:25:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:25:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:25:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:25:48 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:32:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:32:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:32:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:32:14 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:33:34 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:33:35 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:33:35 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:33:35 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:33:39 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:33:39 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:33:39 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:33:39 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:35:16 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 13:35:16 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 13:35:16 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 13:35:16 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 13:36:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 69
+[02-Mar-2022 13:36:41 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[02-Mar-2022 13:36:45 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 69
+[02-Mar-2022 13:36:45 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 104
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 108
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 112
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 116
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 122
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 126
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 130
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 134
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 140
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 144
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 148
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 152
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 158
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 162
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 166
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 172
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 176
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 180
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 186
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 190
+[02-Mar-2022 14:04:11 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 194
+[02-Mar-2022 14:05:31 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 14:05:31 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 14:05:31 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 14:05:31 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 14:06:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 69
+[02-Mar-2022 14:06:02 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 71
+[02-Mar-2022 14:28:21 UTC] PHP Notice:  Undefined index: num_fact in /home/remacons/public_html/zinira/facture/fact.php on line 89
+[02-Mar-2022 14:30:23 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 14:30:23 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 14:30:23 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 14:30:23 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 14:31:44 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 14:31:44 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 14:38:24 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Incorrect output destination: 1 in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 /home/remacons/public_html/zinira/facture/facture.php(152): FPDF->Output(true)
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[02-Mar-2022 14:42:08 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Incorrect output destination: 1 in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 /home/remacons/public_html/zinira/facture/facture.php(152): FPDF->Output(true)
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[02-Mar-2022 14:42:50 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Incorrect output destination: 1 in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 /home/remacons/public_html/zinira/facture/facture.php(152): FPDF->Output(true)
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[02-Mar-2022 14:42:53 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Incorrect output destination: 1 in /home/remacons/public_html/zinira/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/fpdf/fpdf.php(1028): FPDF->Error('Incorrect outpu...')
+#1 /home/remacons/public_html/zinira/facture/facture.php(152): FPDF->Output(true)
+#2 {main}
+  thrown in /home/remacons/public_html/zinira/fpdf/fpdf.php on line 271
+[02-Mar-2022 15:52:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 15:52:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 15:52:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 15:52:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 15:52:42 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 15:52:42 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 15:53:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 15:53:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 15:53:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 15:53:06 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 15:53:37 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 15:53:37 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 15:53:37 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 15:53:37 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[02-Mar-2022 17:32:45 UTC] PHP Notice:  Undefined offset: 3 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[02-Mar-2022 17:33:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 17:33:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 17:33:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 17:33:54 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 17:33:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 17:33:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 17:33:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[02-Mar-2022 17:33:58 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[02-Mar-2022 17:41:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 17:42:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 17:42:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 17:50:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 17:51:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 18:01:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 18:14:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:63
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 63
+[02-Mar-2022 18:21:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:22:27 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:22:27 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:22:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:34:19 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:34:19 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:34:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:34:22 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:34:22 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:34:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:38:26 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:38:26 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:38:26 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:38:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 18:41:43 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:41:43 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:41:43 UTC] PHP Notice:  Undefined variable: DB in /home/remacons/public_html/zinira/facture/acompte.php on line 61
+[02-Mar-2022 18:41:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/remacons/public_html/zinira/facture/acompte.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 61
+[02-Mar-2022 18:45:59 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 18:45:59 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 18:45:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[02-Mar-2022 19:43:39 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[02-Mar-2022 19:43:39 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[02-Mar-2022 19:43:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:33:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:33:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:34:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:37:54 UTC] PHP Notice:  Undefined index: prenom_nom in /home/remacons/public_html/zinira/facture/acompte.php on line 58
+[03-Mar-2022 11:37:54 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/facture/acompte.php on line 59
+[03-Mar-2022 11:37:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:38:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/acompte.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/acompte.php on line 62
+[03-Mar-2022 11:46:55 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[03-Mar-2022 11:46:55 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[03-Mar-2022 11:46:55 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[03-Mar-2022 11:46:55 UTC] PHP Notice:  Undefined offset: 2 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[03-Mar-2022 11:47:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[03-Mar-2022 11:47:19 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 110
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 114
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 118
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 122
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 128
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 132
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 136
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 140
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 146
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 150
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 154
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 158
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 164
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 168
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 172
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 178
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 182
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 186
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 192
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 196
+[03-Mar-2022 12:00:44 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 200
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 110
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 114
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 118
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 122
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 128
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 132
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 136
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 140
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 146
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 150
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 154
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 158
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 164
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 168
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 172
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 178
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 182
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 186
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 192
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 196
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 200
+[03-Mar-2022 12:04:08 UTC] PHP Notice:  Undefined index: mo in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 21
+[03-Mar-2022 12:04:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/ajout_ac.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 24
+[03-Mar-2022 12:08:18 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 67
+[03-Mar-2022 12:13:50 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:15:11 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:18:06 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:18:18 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 63
+[03-Mar-2022 12:18:18 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 64
+[03-Mar-2022 12:18:18 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 65
+[03-Mar-2022 12:18:18 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/facture/fact.php on line 66
+[03-Mar-2022 12:18:43 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 70
+[03-Mar-2022 12:18:43 UTC] PHP Warning:  number_format() expects parameter 1 to be float, string given in /home/remacons/public_html/zinira/facture/facture.php on line 72
+[03-Mar-2022 12:18:54 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:19:59 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:20:39 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:21:15 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:21:43 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:22:23 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:22:54 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:23:09 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:23:49 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:23:56 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 70
+[03-Mar-2022 12:25:21 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 74
+[03-Mar-2022 12:25:44 UTC] PHP Notice:  Undefined variable: id_facture in /home/remacons/public_html/zinira/facture/ajout_ac.php on line 74
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 110
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 114
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 118
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 122
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 128
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 132
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 136
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 140
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 146
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 150
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 154
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 158
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 164
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 168
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 172
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 178
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 182
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 186
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 192
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 196
+[03-Mar-2022 16:29:04 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/facture/fact.php on line 200
+[03-Mar-2022 17:34:57 UTC] PHP Notice:  Undefined variable: numerofact in /home/remacons/public_html/zinira/facture/fonction.php on line 39
+[03-Mar-2022 17:35:46 UTC] PHP Notice:  Undefined variable: numerofact in /home/remacons/public_html/zinira/facture/fonction.php on line 39
+[03-Mar-2022 17:37:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/facture/fonction.php:43
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/facture/fonction.php on line 43

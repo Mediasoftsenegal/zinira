@@ -1,0 +1,166 @@
+[08-Mar-2022 11:26:17 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[08-Mar-2022 11:26:17 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[08-Mar-2022 11:26:17 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[08-Mar-2022 11:27:28 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[08-Mar-2022 11:27:28 UTC] PHP Warning:  require(footer.php): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[08-Mar-2022 11:27:28 UTC] PHP Fatal error:  require(): Failed opening required 'footer.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/remacons/public_html/zinira/marquage/tailleur.php on line 103
+[10-Mar-2022 11:27:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 48
+[10-Mar-2022 11:27:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 48
+[10-Mar-2022 11:31:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 48
+[10-Mar-2022 11:42:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:48
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 48
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:24:07 UTC] PHP Notice:  Undefined index: numero_facture in /home/remacons/public_html/zinira/marquage/marquage.php on line 46
+[10-Mar-2022 18:25:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 44
+[10-Mar-2022 18:28:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 44
+[10-Mar-2022 18:28:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/marquage/marquage.php:44
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 44
+[10-Mar-2022 18:41:39 UTC] PHP Notice:  Undefined variable: donnees in /home/remacons/public_html/zinira/marquage/marquage.php on line 65
+[10-Mar-2022 18:41:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 65
+[10-Mar-2022 18:41:39 UTC] PHP Notice:  Undefined variable: donnees in /home/remacons/public_html/zinira/marquage/marquage.php on line 66
+[10-Mar-2022 18:41:39 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 66
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/marquage/marquage.php on line 66
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/marquage/marquage.php on line 69
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  String offset cast occurred in /home/remacons/public_html/zinira/marquage/marquage.php on line 69
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/marquage/marquage.php on line 66
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  Undefined variable: i in /home/remacons/public_html/zinira/marquage/marquage.php on line 69
+[10-Mar-2022 18:49:32 UTC] PHP Notice:  String offset cast occurred in /home/remacons/public_html/zinira/marquage/marquage.php on line 69
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnees in /home/remacons/public_html/zinira/marquage/marquage.php on line 64
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 64
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:12 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type bool in /home/remacons/public_html/zinira/marquage/marquage.php on line 64
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 19:52:24 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnees in /home/remacons/public_html/zinira/marquage/marquage.php on line 64
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 64
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:34 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:00:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:07:46 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:08:44 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:38 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donnee in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 120
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donne in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 150
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Undefined variable: donn in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:11:53 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/remacons/public_html/zinira/marquage/marquage.php on line 180
+[10-Mar-2022 20:12:12 UTC] PHP Notice:  Undefined variable: repon in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
+[10-Mar-2022 20:12:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/remacons/public_html/zinira/marquage/marquage.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
+[10-Mar-2022 20:13:06 UTC] PHP Notice:  Undefined variable: repon in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
+[10-Mar-2022 20:13:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/remacons/public_html/zinira/marquage/marquage.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
+[10-Mar-2022 20:13:10 UTC] PHP Notice:  Undefined variable: repon in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
+[10-Mar-2022 20:13:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on null in /home/remacons/public_html/zinira/marquage/marquage.php:97
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/marquage/marquage.php on line 97
