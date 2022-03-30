@@ -66,6 +66,14 @@
                     <i class="fas fa-fw fa-money-check"></i>
                     <span>Marquage</span></a>
             </li>
+
+            <hr hidden class="sidebar-divider my-0">
+
+            <li hidden class="nav-item active">
+                <a class="nav-link" href="honno.php">
+                    <i class="fas fa-fw fa-money-check"></i>
+                    <span>Honoraire</span></a>
+            </li>
            
             <hr class="sidebar-divider">
 

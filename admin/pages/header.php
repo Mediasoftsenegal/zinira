@@ -97,6 +97,7 @@
                         <a class="collapse-item" href="../marquage/tailleur.php">Tailleur</a>
                         <a class="collapse-item" href="../marquage/tarif.php">Tarif</a>
                         <a class="collapse-item" href="../marquage/marquage.php">Marquage</a>
+                        <a class="collapse-item" href="../marquage/honno.php">Honoraire</a>
                     </div>
                 </div>
             </li>

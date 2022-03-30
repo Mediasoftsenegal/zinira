@@ -1,4 +1,12 @@
-<?php require 'header.php'; ?>
+<?php require 'header.php';
+function modele($id){
+    $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
+    $sql = "SELECT * FROM zen_modele WHERE codemod = ".$id;
+    $reponse = $bdd->prepare($sql);
+    $reponse->execute();
+    $donnees = $reponse->fetch();
+    return $donnees['libmod'];
+}  ?>
 <?php 
     $id_client = $_GET['po'];
     $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
@@ -51,9 +59,10 @@
                             </tfoot>
                             <tbody>
                             <?php $products = $DB->query('SELECT * FROM zen_produit'); ?>
-                            <?php foreach ($products as $product): ?>
+                            <?php foreach ($products as $product): 
+                                $libmod = modele($product->id_modele)?>
                                 <tr>
-                                    <td style="text-transform: uppercase" ><?= $product->des.'->'.$product->modele.'->'.$product->catp; ?></td>
+                                    <td style="text-transform: uppercase" ><?= $product->des.'->'.$libmod.'->'.$product->catp; ?></td>
                                     <td ><?= number_format($product->pu,0,',',' ');?>F CFA</td>
                                     <td><a class="add" href="addpanier.php?id=<?php echo $product->codep;?>&idc=<?php echo $id_client;?>"><i class="fas fa-shopping-basket"></i></a></td>
                                 </tr>

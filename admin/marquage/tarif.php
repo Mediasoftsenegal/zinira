@@ -22,18 +22,20 @@
                             <thead>
                                 <tr>
                                     <th>Nº</th>
-                                    <th>Tailleur</th>
-                                    <th>Type</th>
-                                    <th>Tarif</th>
+                                    <th>Modèle</th>
+                                    <th>Tarif Simple</th>
+                                    <th>Tarif Brodeur</th>
+                                    <th>Tarif Bouton</th>
                                     <th>Actions</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
                                     <th>Nº</th>
-                                    <th>Tailleur</th>
-                                    <th>Type</th>
-                                    <th>Tarif</th>
+                                    <th>Modèle</th>
+                                    <th>Tarif Simple</th>
+                                    <th>Tarif Brodeur</th>
+                                    <th>Tarif Bouton</th>
                                     <th>Actions</th>
                                 </tr>
                             </tfoot>
@@ -41,13 +43,14 @@
                                 <?php
                                     $i = 0;
                                     $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-                                    $reponse = $bdd->query("SELECT * FROM zen_tarification INNER JOIN zen_tailleur ON zen_tarification.id_tailleur = zen_tailleur.id_tailleur");
+                                    $reponse = $bdd->query("SELECT * FROM zen_tarification INNER JOIN zen_modele ON zen_tarification.id_modele = zen_modele.codemod");
                                     while($donnees = $reponse->fetch()){?>
                                     <tr>
                                         <td><?php echo ++$i;?></td>
-                                        <td><?php echo $donnees['prenom_nom'];?></td>
-                                        <td><?php echo $donnees['type_tailleur'];?></td>
-                                        <td><?php echo number_format($donnees['tarif'],0,""," ");?></td>
+                                        <td><?php echo $donnees['libmod'];?></td>
+                                        <td><?php echo number_format($donnees['tarif_simple'],0,""," ");?></td>
+                                        <td><?php echo number_format($donnees['tarif_brodeur'],0,""," ");?></td>
+                                        <td><?php echo number_format($donnees['tarif_bouton'],0,""," ");?></td>
                                         <td align="center">
                                             <!--a href="modifu.php?mo=<?php //echo $donnees['id_user'];?>"><i class="fas fa-edit"></i></a-->
                                         </td>
@@ -78,33 +81,34 @@
                 </div>
                 <div class="modal-body">
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Tailleur :</label>
+                        <label class="col-sm-4 control-label">Modèle :</label>
                         <div class="col-sm-6">
-                            <select name="prenom_nom" class="form-control">
-                                <option>Choisir Tailleur</option>
+                            <select name="codemod" class="form-control">
+                                <option>Choisir Modèle</option>
                                 <?php
-                                $reponse = $bdd->query("SELECT * FROM zen_tailleur");
+                                $reponse = $bdd->query("SELECT * FROM zen_modele");
                                 while($donnees = $reponse->fetch()){?>
-                                <option value="<?php echo $donnees['id_tailleur']; ?>"><?php echo $donnees['prenom_nom']; ?></option>
+                                <option value="<?php echo $donnees['codemod']; ?>"><?php echo $donnees['libmod']; ?></option>
                                 <?php } $reponse->closeCursor();?>
                             </select>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Type :</label>
+                        <label class="col-sm-4 control-label">Tarif Simple :</label>
                         <div class="col-sm-6">
-                            <select name="type_tailleur" class="form-control">
-                                <option>Choisir Profil</option>
-                                <option value="Tailleur simple">Tailleur simple</option>
-                                <option value="Brodeur">Brodeur</option>
-                                <option value="Boutonnier">Boutonnier</option>
-                            </select>
+                            <input type="text" name="tarif_simple" class="form-control">
                         </div>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-4 control-label">Tarif :</label>
+                        <label class="col-sm-4 control-label">Tarif Bordeur :</label>
                         <div class="col-sm-6">
-                            <input type="number" name="tarif" class="form-control">
+                            <input type="text" name="tarif_brodeur" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-4 control-label">Tarif Bouton :</label>
+                        <div class="col-sm-6">
+                            <input type="text" name="tarif_bouton" class="form-control">
                         </div>
                     </div>
                 </div>

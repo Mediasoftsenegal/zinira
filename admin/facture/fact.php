@@ -12,6 +12,8 @@
     $total = $_GET['total'];
     $reponses = $bdd->query("SELECT * FROM zen_mesure INNER JOIN zen_client ON zen_mesure.id_client = zen_client.id_client WHERE zen_mesure.id_client = ".$id_client."");
     $donnee = $reponses->fetch();
+    $id_articles = $_GET['id_article'];
+    $id_article = explode(",",$id_articles);
 
     $datefact   = date("Y-m-d");
     $dateecheance = date("Y-m-d", strtotime($datefact.'+ 15 days'));
@@ -25,6 +27,7 @@
         <div class="col-lg-12 mb-4">
             <div class="card shadow mb-4">
                 <div class="card-header py-3">
+                    <?= $id_article[0] ?>
                     <h6 class="m-0 font-weight-bold text-primary">Etape 4</h6>
 					<div class="progress">
                         <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
@@ -202,6 +205,7 @@
                             </div>
                         </div> 
                     <input type="hidden" name="id_client" value="<?= $id_client ?>"> 
+                    <input type="hidden" name="id_articles" value="<?= $id_articles ?>"> 
                 </div>
                 <div class="card-footer">
                     <button type="submit" class="btn btn-success">Valider</button>

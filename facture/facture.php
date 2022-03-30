@@ -33,11 +33,19 @@
     $article = implode(",", $des[0]);
     $prix_unitaire = implode(",", $prices[0]);
     $nombre = implode(",", $qtys[0]);
-    $id_articles = $_GET['id_article'];
+    $id_articles = $_GET['id_articles'];
 
-    $sql = "INSERT INTO `zen_detail_facture` (`id_facture`, `id_client`, `article`, `prix_unitaire`, `nombre`, `montant`, `id_societe`, `id_article`) VALUES (:id_facture, :id_client, :article, :prix_unitaire, :nombre, :montant, 1, :id_article)";
-    $res = $bdd->prepare($sql);
-    $res->execute(array(":id_facture"=>$id_facture, ":id_client"=>$id_client, ":article"=>$article, ":prix_unitaire"=>$prix_unitaire, ":nombre"=>$nombre, ":montant"=>$total, ":id_articles"=>$id_articles  ));
+    $sq = "INSERT INTO `zen_detail_facture`(`id_facture`, `id_client`, `article`, `prix_unitaire`, `nombre`, `montant`, `id_societe`, `id_article`) VALUES (:id_facture, :id_client, :article, :prix_unitaire, :nombre, :montant, 1, :id_article)";
+    $re = $bdd->prepare($sq);
+    $ea = $re->execute(array(":id_facture"=>$id_facture, ":id_client"=>$id_client, ":article"=>$article, ":prix_unitaire"=>$prix_unitaire, ":nombre"=>$nombre, ":montant"=>$total, ":id_article"=>$id_articles  ));
+
+    $id_article = explode(",",$id_articles);
+    foreach($id_article as $i => $key):
+        $i>0;
+        $asd = "INSERT INTO zen_marquage (id_article, numero_facture) VALUES (:id_facture, :numero_facture)";
+        $dsa = $bdd->prepare($asd);
+        $dsa->execute(array(":id_facture"=>$id_article[$i], "numero_facture"=>$numerofact));
+    endforeach
 ?>
 <?php //var_dump($_GET) ?>
 <?php

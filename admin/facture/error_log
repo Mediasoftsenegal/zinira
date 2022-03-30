@@ -1502,3 +1502,77 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/remacons/public_html/zinira/facture/fonction.php on line 43
+[28-Mar-2022 12:13:58 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[28-Mar-2022 12:13:58 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/details.php(10): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/details.php(144): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[28-Mar-2022 12:14:29 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[28-Mar-2022 12:14:29 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/details.php(10): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/details.php(144): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[28-Mar-2022 12:15:52 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[28-Mar-2022 12:15:52 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/details.php(10): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/details.php(144): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[28-Mar-2022 12:28:58 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[28-Mar-2022 12:28:58 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/details.php(10): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/details.php(144): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[30-Mar-2022 14:04:06 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[30-Mar-2022 14:04:06 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/facture.php(56): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/facture.php(170): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[30-Mar-2022 14:04:22 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[30-Mar-2022 14:04:22 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/facture.php(56): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/facture.php(170): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271
+[30-Mar-2022 14:07:36 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/admin/facture/fact.php on line 66
+[30-Mar-2022 14:07:36 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/admin/facture/fact.php on line 67
+[30-Mar-2022 14:07:36 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/admin/facture/fact.php on line 68
+[30-Mar-2022 14:07:36 UTC] PHP Notice:  Undefined offset: 1 in /home/remacons/public_html/zinira/admin/facture/fact.php on line 69
+[30-Mar-2022 14:07:41 UTC] PHP Warning:  fopen(../img/logo1.png): failed to open stream: No such file or directory in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 1257
+[30-Mar-2022 14:07:41 UTC] PHP Fatal error:  Uncaught Exception: FPDF error: Can't open image file: ../img/logo1.png in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php:271
+Stack trace:
+#0 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(1259): FPDF->Error('Can't open imag...')
+#1 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(885): FPDF->_parsepng('../img/logo1.pn...')
+#2 /home/remacons/public_html/zinira/admin/facture/facture.php(56): FPDF->Image('../img/logo1.pn...', 10, 6, 50)
+#3 /home/remacons/public_html/zinira/admin/fpdf/fpdf.php(334): PDF->Header()
+#4 /home/remacons/public_html/zinira/admin/facture/facture.php(170): FPDF->AddPage()
+#5 {main}
+  thrown in /home/remacons/public_html/zinira/admin/fpdf/fpdf.php on line 271

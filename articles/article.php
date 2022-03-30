@@ -1,4 +1,12 @@
-<?php require '../pages/header.php'; ?>
+<?php require '../pages/header.php';
+function modele($id){
+    $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
+    $sql = "SELECT * FROM zen_modele WHERE codemod = ".$id;
+    $reponse = $bdd->prepare($sql);
+    $reponse->execute();
+    $donnees = $reponse->fetch();
+    return $donnees['libmod'];
+} ?>
 <!-- Begin Page Content -->
 <div class="container-fluid">
 
@@ -59,13 +67,14 @@
                                 <?php
                                     $i = 0;
                                     $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-                                    $reponse = $bdd->query("SELECT * FROM zen_produit INNER JOIN zen_modele ON zen_produit.id_modele = zen_modele.codemod");
-                                    while($donnees = $reponse->fetch()){?>
+                                    $reponse = $bdd->query("SELECT * FROM zen_produit");
+                                    while($donnees = $reponse->fetch()){
+                                        $libmod = modele($donnees['id_modele'])?>
                                 <tr>
                                     <td style="text-transform: uppercase"><?php echo $donnees['des']?></td>
                                     <td><?php echo (number_format($donnees['pu'],0,'',' '));?>F CFA</td>
                                     <td style="text-transform: uppercase" ><?php echo $donnees['catp'];?></td>
-                                    <td style="text-transform: uppercase" ><?php echo $donnees['libmod'];?></td>
+                                    <td style="text-transform: uppercase" ><?php echo $libmod;?></td>
 									<td style="text-transform: uppercase" ><?php echo $donnees['genre'];?></td>
                                     <td style="text-transform: uppercase" ><?php echo $donnees['couleur'];?></td>
                                     <td align="center">
@@ -115,7 +124,7 @@
 									<label  class="col-sm-4 control-label">Catégorie:</label>
 										<div class="col-sm-6">
 										<select name="catp" id="catp" class="form-control"> 
-										  <option value="">Choisir une catégorie</option>
+										  <option>Choisir une catégorie</option>
 										  <option value="PAP">PAP</option>
 										  <option value="TISSU">TISSU</option>
 										</select>
@@ -124,16 +133,23 @@
 								<div class="form-group">
                                     <label class="col-sm-4 control-label">Modèle :</label>
                                     <div class="col-sm-6">
-                                        <input type="text" style="text-transform: uppercase" name="modele" class="form-control">
+                                        <select name="libmod">
+                                            <option>Choisir Modèle</option>
+                                            <?php
+                                            $reponse = $bdd->query("SELECT * FROM zen_modele");
+                                            while($donnees = $reponse->fetch()){?>
+                                            <option value="<?php echo $donnees['codemod']; ?>"><?php echo $donnees['libmod']; ?></option>
+                                            <?php } $reponse->closeCursor();?>
+                                        </select>
                                     </div>
                                 </div>
 								<div class="form-group">
-									<label  class="col-sm-4 control-label for="cars">Genre:</label>
+									<label  class="col-sm-4 control-label">Genre:</label>
 										<div class="col-sm-6">
 										<select name="genre" id="genre" class="form-control">
 										 <option value="">Choisir un genre</option>
-										  <option value="volvo">Homme</option>
-										  <option value="saab">Femme</option>
+										  <option value="Homme">Homme</option>
+										  <option value="Femme">Femme</option>
 										</select>
 										</div>
                                 </div>

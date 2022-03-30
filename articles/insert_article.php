@@ -7,13 +7,14 @@
         $des = $_POST['des'];
         $pu = $_POST['pu'];
         $catp = $_POST['catp'];
-		$catp = $_POST['modele'];
-		$catp = $_POST['genre'];
-		$catp = $_POST['couleur'];
+		    $modele = $_POST['libmod'];
+        $genre = $_POST['genre'];
+        $couleur = $_POST['couleur'];
+        echo $des.' '.$pu.' '.$catp.' '.$modele.' '.$genre.' '.$couleur;
 
-        $sql = "INSERT INTO `zen_produit` (`des`, `pu`, `catp`, `modele`, `genre`, `couleur`) VALUES (:des, :pu, :catp, :modele, :genre, :couleur)";
+        $sql = "INSERT INTO `zen_produit` (`des`, `pu`, `catp`, `id_modele`, `genre`, `couleur`) VALUES (:des, :pu, :catp, :id_modele, :genre, :couleur)";
         $res = $bdd->prepare($sql);
-        $exec = $res->execute(array(":des"=>$des, ":pu"=>$pu, ":catp"=>$catp, ":modele"=>$modele, ":genre"=>$genre,":couleur"=>$couleur));
+        $exec = $res->execute(array(":des"=>$des, ":pu"=>$pu, ":catp"=>$catp, ":id_modele"=>$modele, ":genre"=>$genre,":couleur"=>$couleur));
 
         if($exec){
             header('location:article.php');

@@ -1,11 +1,9 @@
 <?php require 'header.php'; ?>
 <?php 
     $pdo = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-    $zen = $pdo->prepare("select count(*) from zen_factures");
-    $zen->execute();
-    $annul = '1036';
-    $nbre = $zen->rowCount();
-    $numfact = $annul + $nbre;
+    $zen = $pdo->query("SELECT * FROM zen_factures ORDER BY numero_facture DESC LIMIT 1");
+    $annul = $zen->fetch();
+    $numfact = $annul['numero_facture'] + 1;
     $_SESSION['num_fact'] = $numfact;
 ?>
                 <!-- Begin Page Content -->

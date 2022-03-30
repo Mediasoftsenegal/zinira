@@ -39,13 +39,14 @@
     if(isset($_POST['bt_tarif'])){
         $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
 
-        $type_tailleur = $_POST['type_tailleur'];
-        $tarif = $_POST['tarif'];
-        $prenom_nom = $_POST['prenom_nom'];
+        $codemod = $_POST['codemod'];
+        $tarif_simple = $_POST['tarif_simple'];
+        $tarif_brodeur = $_POST['tarif_brodeur'];
+        $tarif_bouton = $_POST['tarif_bouton'];
 
-        $sql = "INSERT INTO `zen_user` (`type_tailleur`, `tarif`, `id_tailleur`, `id_societe`) VALUES (:type_tailleur, :tarif, :nom_prenom, 1)";
+        $sql = "INSERT INTO `zen_tarification`(`id_modele`, `tarif_simple`, `tarif_brodeur`, `tarif_bouton`, `id_societe`) VALUES (:id_modele, :tarif_simple, :tarif_brodeur, :tarif_bouton, 1)";
         $res = $bdd->prepare($sql);
-        $exec = $res->execute(array(":type_tailleur"=>$type_tailleur, ":tarif"=>$tarif, ":nom_prenom"=>$nom_prenom));
+        $exec = $res->execute(array(":id_modele"=>$codemod, ":tarif_simple"=>$tarif_simple, ":tarif_brodeur"=>$tarif_brodeur, ":tarif_bouton"=>$tarif_bouton));
 
         if($exec){
             header('location:tarif.php');

@@ -70,7 +70,7 @@
                                                     <td><?php echo $donnees['genre'];?></td>
                                                     <td><?php echo $donnees['telephone'];?></td>
                                                     <td><?php echo $donnees['adresse'];?></td>
-                                                    <td align="center"><a href="ajout_mesure_1.php?me=<?php echo $donnees['id_client'];?>"><i class="fas fa-pencil-ruler"></i></a></td>
+                                                    <td align="center"><a href="mesure.php?me=<?php echo $donnees['id_client'];?>"><i class="fas fa-pencil-ruler"></i></a></td>
                                                     <td align="center">
                                                         <a href="modif.php?mo=<?php echo $donnees['id_client'];?>"><i class="fas fa-edit"></i></a>
                                                         <a href="#"><i class="fas fa-trash" data-toggle="modal" data-target="#Deletes"></i></a>

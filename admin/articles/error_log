@@ -351,3 +351,18 @@ Stack trace:
 [12-Feb-2022 17:35:18 UTC] PHP Notice:  Undefined variable: modele in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
 [12-Feb-2022 17:35:18 UTC] PHP Notice:  Undefined variable: genre in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
 [12-Feb-2022 17:35:18 UTC] PHP Notice:  Undefined variable: couleur in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[26-Feb-2022 18:48:56 UTC] PHP Notice:  Undefined variable: modele in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[26-Feb-2022 18:48:56 UTC] PHP Notice:  Undefined variable: genre in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[26-Feb-2022 18:48:56 UTC] PHP Notice:  Undefined variable: couleur in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[02-Mar-2022 15:16:01 UTC] PHP Notice:  Undefined variable: modele in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[02-Mar-2022 15:16:01 UTC] PHP Notice:  Undefined variable: genre in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[02-Mar-2022 15:16:01 UTC] PHP Notice:  Undefined variable: couleur in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[03-Mar-2022 13:48:22 UTC] PHP Notice:  Undefined variable: modele in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[03-Mar-2022 13:48:22 UTC] PHP Notice:  Undefined variable: genre in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[03-Mar-2022 13:48:22 UTC] PHP Notice:  Undefined variable: couleur in /home/remacons/public_html/zinira/articles/insert_article.php on line 38
+[10-Mar-2022 12:35:54 UTC] PHP Notice:  Undefined index: modele in /home/remacons/public_html/zinira/articles/modif_article.php on line 12
+[10-Mar-2022 12:47:11 UTC] PHP Notice:  Undefined index: mo in /home/remacons/public_html/zinira/articles/mod_article.php on line 3
+[10-Mar-2022 12:47:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on bool in /home/remacons/public_html/zinira/articles/mod_article.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/remacons/public_html/zinira/articles/mod_article.php on line 7

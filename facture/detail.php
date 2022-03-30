@@ -19,7 +19,7 @@
                             <?php 
                             $id_facture = $_GET['det']; 
                             $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-                            $reponse = $bdd->query("SELECT * FROM zen_detail_facture INNER JOIN zen_client ON zen_detail_facture.id_client = zen_client.id_client WHERE zen_detail_facture.id_client = ".$id_facture);
+                            $reponse = $bdd->query("SELECT * FROM ((zen_detail_facture INNER JOIN zen_client ON zen_detail_facture.id_client = zen_client.id_client) INNER JOIN zen_factures ON zen_detail_facture.id_facture = zen_factures.id_facture) WHERE zen_detail_facture.id_facture = ".$id_facture);
                             $donnees = $reponse->fetch()
                             ?>
                             <div class="col-6">
@@ -27,11 +27,19 @@
                                     <label>Client</label><br>
                                     <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['prenom_nom']?>" readonly>
                                 </div>
+                                <div class="form-group">
+                                    <label>Date Commande</label><br>
+                                    <input type="date" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['date_facture']?>" readonly>
+                                </div>
                             </div>
                             <div class="col-6">
                                 <div class="form-group">
                                     <label>Téléphone</label><br>
                                     <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['telephone']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Date Livraison</label><br>
+                                    <input type="date" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['date_echeance']?>" readonly>
                                 </div>
                             </div>
                         </div>
@@ -60,10 +68,95 @@
                                     <?php endfor;?>
                                     </tbody>
                                     <tfoot>
-                                        <th colspan="3">Total</th>
+                                        <th colspan="2">Total</th>
+                                        <th><?php for($a=0; $a<$is; $a++): $s += $qty[$a]; endfor; echo $s; ?></th>
                                         <th><?= $donnees['montant'] ?></th>
                                     </tfoot>
                                 </table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Avance</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['montpaye']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Reste</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['montant'] - $donnees['montpaye']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="form-group">
+                                    <label>Soldée le</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnees['date_facture']?>" readonly>
+                                </div>
+                            </div>
+                        </div>
+                        <?php $repons = $bdd->query("SELECT * FROM zen_mesure INNER JOIN zen_client ON zen_mesure.id_client = zen_client.id_client WHERE zen_mesure.id_client = ".$donnees['id_client']."");
+                            $donnee = $repons->fetch() ?>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Hanche</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['hanche']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Jupe</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['longueurjupe']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Longueur</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['longueur']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Cou</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['cou']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Blouse</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['blouse']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Taille</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['taille']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Epaule</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['epaule']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Pince</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['pince']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Poitrine</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['poitrine']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Pantalon</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['longueurpantalon']?>" readonly>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label>Manche</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['manche']?>" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Ceinture</label><br>
+                                    <input type="text" class="form-control bg-gradient-secondary text-gray-100" value="<?php echo $donnee['ceinture']?>" readonly>
+                                </div>
                             </div>
                         </div>
                         <br>

@@ -1,5 +1,5 @@
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
+<!-- Footer -->
+<footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
                         <span>Copyright &copy; Zinira <?php $an=date('Y'); echo $an;?></span>
@@ -56,65 +56,6 @@
 
     <!-- Page level custom scripts -->
     <script src="../../js/demo/datatables-demo.js"></script>
-
-    <script>
-        /*$(document).ready(function(){
-            $("qty").on('change', function(){
-                var $el = $(this).closest('tr');
-
-                var price = $el.find(".price").val();
-                var qty = $el.find(".qty").val();
-
-                location.reload(true);
-
-                $.ajax({
-                    url: "panier.class.php",
-                    method: "post",
-                    cache: false,
-                    data: {price:price,qty:qty},
-                    success: function (response){
-                        console.log(response);
-                    }
-                });
-            });
-        });*/
-        
-        /*var qty = document.getElementById('qty'),
-            price = document.getElementById('price'),
-            sub_tot = document.getElementById('sub_tot'),
-            tot_qty = document.getElementById('tot_qty'),
-            total = document.getElementById('total'),
-            plus = document.getElementById('plus'),
-            moins = document.getElementById('moins');
-        var colisage = parseInt(document.getElementById('qty').getAttribute('colisage'));
-        var miniCommande = parseInt(document.getElementById('qty').getAttribute('min'));
-            
-
-            plus.onclick=function(e){
-                e.preventDefault();
-                qty.value++;
-                sub_tot.value = price.value * qty.value;
-                tot_qty.value = qty.value;
-                total.value = sub_tot.value;
-            }
-            moins.onclick=function(e){
-                e.preventDefault(); 
-                qty.value--;
-                sub_tot.value = price.value * qty.value;
-                tot_qty.value = qty.value;
-                total.value = sub_tot.value;
-            }*/
-            /*plus.onclick=function(e){
-                value = parseInt(qty.value);
-                e.preventDefault();
-                qty.value = value + colisage;
-            }
-            moins.onclick=function(e){
-                value = parseInt(qty.value);
-                e.preventDefault();
-                if(qty.value>1) qty.value = value - colisage;
-            }*/
-    </script>
 
 </body>
 

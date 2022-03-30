@@ -39,6 +39,8 @@
                             <tbody>
                                 <?php 
                                 $ids = array_keys($_SESSION['panier']);
+                                $id = implode(",",$ids);
+                                echo $id;
                                 if(empty($ids)){
                                     $products = array();
                                 }else{
@@ -63,6 +65,7 @@
                                 </tr>
                             </tbody>
                         </table>
+                        <input type="hidden" name="id_article" value="<?= $id; ?>">
                         <input type="hidden" name="id_client" value="<?php echo $id_client;?>">
                         <button type="submit" class="btn btn-success" name="bt_facture">Valider</button>
                         </form>

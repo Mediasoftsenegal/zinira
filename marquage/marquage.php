@@ -1,12 +1,33 @@
 <?php
+session_start();
 if(isset($_POST['search'])){
     $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
     $numero_facture = $_POST['numero_facture'];
-    $reponse = $bdd->query("SELECT * FROM zen_detail_facture INNER JOIN zen_factures ON zen_detail_facture.id_facture = zen_factures.id_facture WHERE zen_detail_facture.etat = 0 AND zen_factures.numero_facture = '$numero_facture'");
-    $donnees = $reponse->fetch();
+    $reponse = $bdd->query("SELECT numero_facture, zen_produit.des, zen_produit.catp, zen_modele.libmod
+    FROM zen_marquage, zen_produit, zen_modele
+    WHERE numero_facture = $numero_facture
+    AND zen_produit.codep = zen_marquage.id_article
+    AND zen_produit.id_modele = zen_modele.codemod");
+    $repons = $bdd->query("SELECT id_marquage, id_couture, date_couture, zen_produit.des, zen_produit.catp, zen_modele.libmod
+    FROM zen_marquage, zen_produit, zen_modele
+    WHERE numero_facture = $numero_facture
+    AND zen_produit.codep = zen_marquage.id_article
+    AND zen_produit.id_modele = zen_modele.codemod");
+    $repon = $bdd->query("SELECT id_marquage, id_brodeur, date_broderie, zen_modele.libmod
+    FROM zen_marquage, zen_produit, zen_modele
+    WHERE numero_facture = $numero_facture
+    AND zen_produit.codep = zen_marquage.id_article
+    AND zen_produit.id_modele = zen_modele.codemod");
+    $repo = $bdd->query("SELECT id_marquage, id_bouton, date_bouton, zen_modele.libmod
+    FROM zen_marquage, zen_produit, zen_modele
+    WHERE numero_facture = $numero_facture
+    AND zen_produit.codep = zen_marquage.id_article
+    AND zen_produit.id_modele = zen_modele.codemod");
 }
+require 'config.php';
 ?>
-<?php require 'headers.php'; ?>
+<?php require 'headers.php';
+$bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc'); ?>
 <div class="container-fluid">
 
 <!-- Page Heading -->
@@ -26,179 +47,138 @@ if(isset($_POST['search'])){
                         <div class="row">
                             <div class="col-4">
                                 <label>Numero Facture</label>
-                                <input type="number" name="numero_facture" class="form-control">
+                                <select name="numero_facture" class="form-control">
+                                    <option></option>
+                                    <?php $sql = "SELECT DISTINCT(numero_facture) FROM zen_marquage ORDER BY numero_facture DESC";
+                                    $rep = $bdd->query($sql);
+                                    while($don = $rep->fetch()){ ?>
+                                    <option value="<?= $don['numero_facture'] ?>"><?= $don['numero_facture'] ?></option>
+                                    <?php } ?>
+                                </select>
                             </div>
                             <div class="col-4">
                                 <br>
                                 <button type="submit" name="search" class="btn btn-primary">Rechercher</button>
                             </div>
                         </div>
-                    </form>
+                    </form><br>
+                    <h4><strong>CLIQUEZ SUR LES BOUTONS EN COULEUR POUR FAIRE LE DISPATCHING</strong></h4>
                 </div>
                 <div class="card-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                            <thead>
-                                <tr>
-                                    <th>Nº Facture</th>
-                                    <th>Modèles</th>
-                                    <th colspan="2">Tailleur Simple / Date</th>
-                                    <th colspan="2">Brodeur / Date</th>
-                                    <th colspan="2">Boutonnier / Date</th>
-                                </tr>
-                            </thead>
-                            <tfoot>
-                                <tr>
-                                    <th>Nº Facture</th>
-                                    <th>Modèles</th>
-                                    <th colspan="2">Tailleur Simple / Date</th>
-                                    <th colspan="2">Brodeur / Date</th>
-                                    <th colspan="2">Boutonnier / Date</th>
-                                </tr>
-                            </tfoot>
-                            <tbody>
-                                <?php
-                                    /*$bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-                                    $reponse = $bdd->query("SELECT * FROM zen_detail_facture INNER JOIN zen_factures ON zen_detail_facture.id_facture = zen_factures.id_facture WHERE zen_detail_facture.etat = 0");
-                                    while($donnees = $reponse->fetch()){*/
-                                    $article = explode(",",$donnees['article']);
-                                    foreach($article as $i =>$key):
-                                    $i>0;
-                                    $art = explode("->",$article[$i]);
-                                    if(!empty($art[1])){?>
-                                    <tr>
-                                        <td><?= $donnees['numero_facture'];?></td>
-                                        <td><?= $article[$i] ?></td>
-                                        <td><button class="btn btn-outline-primary btn-icon shadow-sm me-2 my-1" data-toggle="modal" data-target="#ModalSimple" name="Tailleur_simple"><i data-feather="feather"></i></button><?php ?></td>
-                                        <td><?php ?></td>
-                                        <td><button class="btn btn-outline-danger btn-icon shadow-sm me-2 my-1"  data-toggle="modal" data-target="#ModalBrodeur" name="Brodeur"><i data-feather="feather"></i></button><?php ?></td>
-                                        <td><?php ?></td>
-                                        <td><button class="btn btn-outline-warning btn-icon shadow-sm me-2 my-1" data-toggle="modal" data-target="#ModalBouton" name="Boutonnier"><i data-feather="feather"></i></button><?php ?></td>
-                                        <td><?php ?></td>
-                                    </tr>
-                                <?php } endforeach?>
-                            </tbody>
-                        </table>
-                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Nº Facture</th>
+                                            <th>Modèles</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Nº Facture</th>
+                                            <th>Modèles</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <?php while($donnees = $reponse->fetch()): 
+                                            if(!empty($donnees['libmod'])){?>
+                                        <tr>
+                                            <td><?= $donnees['numero_facture'];?></td>
+                                            <td><?= $donnees['des'].'=>'.$donnees['libmod'].'=>'.$donnees['catp'] ?></td>
+                                        </tr>
+                                        <?php } endwhile ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Tailleur Simple / Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="2">Tailleur Simple / Date</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <?php while($donnee = $repons->fetch()): 
+                                            $datec = explode('-',$donnee['date_couture']);
+                                            if(!empty($donnee['libmod'])){
+                                                $nom = fnom($donnee['id_couture'])?>
+                                        <tr>
+                                            <td><a href="ma.php?simple=<?= $donnee['id_marquage'] ?>"><button class="btn btn-outline-primary btn-icon shadow-sm me-2 my-1"></button></a>&nbsp;&nbsp;<?= $nom ?></td>
+                                            <td><?= $datec[2].'/'.$datec[1].'/'.$datec[0] ?></td>
+                                        </tr>
+                                        <?php } endwhile ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Brodeur / Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="2">Brodeur / Date</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <?php while($donne = $repon->fetch()): 
+                                            $datebr = explode('-',$donne['date_broderie']);
+                                            if(!empty($donne['libmod'])){
+                                                $nom = fnom($donne['id_brodeur'])?>
+                                        <tr>
+                                            <td><a href="ma.php?brodeur=<?= $donne['id_marquage'] ?>"><button class="btn btn-outline-danger btn-icon shadow-sm me-2 my-1"></button></a>&nbsp;&nbsp;<?= $nom ?></td>
+                                            <td><?= $datebr[2].'/'.$datebr[1].'/'.$datebr[0] ?></td>
+                                        </tr>
+                                        <?php } endwhile ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Boutonnier / Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="2">Boutonnier / Date</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <?php while($donn = $repo->fetch()): 
+                                            $datebo = explode('-',$donn['date_bouton']);
+                                            if(!empty($donn['libmod'])){
+                                                $nom = fnom($donn['id_bouton'])?>
+                                        <tr>
+                                            <td><a href="ma.php?bouton=<?= $donn['id_marquage'] ?>"><button class="btn btn-outline-warning btn-icon shadow-sm me-2 my-1"></button></a>&nbsp;&nbsp;<?= $nom ?></td>
+                                            <td><?= $datebo[2].'/'.$datebo[1].'/'.$datebo[0] ?></td>
+                                        </tr>
+                                        <?php } endwhile ?>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>                  
                 </div>
             </div>
         </div>
     </div>
 
 </div>
-<?php
-$bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
-    $repons = $bdd->query("SELECT * FROM zen_tailleur WHERE type_tailleur = 'Tailleur simple'");
-    $repon = $bdd->query("SELECT * FROM zen_tailleur WHERE type_tailleur = 'Brodeur'");
-    $repo = $bdd->query("SELECT * FROM zen_tailleur WHERE type_tailleur = 'Boutonnier'");   
-    $date = date('Y-m-d');
- ?>
-<form class="form-horizontal style-form" action="marquage.php" method="POST" >
-    <!-- Modal -->
-    <div class="modal fade" id="ModalSimple" role="dialog">
-        <div class="modal-dialog">
-                      
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">&times;</button>
-                    <h5 class="modal-title">Marquage Tailleur Simple</h5>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Prénom Nom :</label>
-                        <div class="col-sm-6">
-                            <select name="prenom_nom" class="form-control">
-                                <option>Choisir Tailleur</option>
-                                <?php while($donnee = $repons->fetch()){?>
-                                <option value="<?= $donnee['id_tailleur']?>"><?= $donnee['prenom_nom']?></option>
-                                <?php } $repons->closeCursor(); ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="clo-sm-4 control-label">Date Marquage</label>
-                        <input type="date" name="date_couture" class="form-control" value="<?= $date ?>">
-                    </div>
-                </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                <button type="submit" class="btn btn-success" name="bt_ts" >Enregistrer</button>
-            </div> 
-            </div>
-        </div>                
-    </div>
-</form>
-<form class="form-horizontal style-form" action="marquage.php" method="POST" >
-    <!-- Modal -->
-    <div class="modal fade" id="ModalBrodeur" role="dialog">
-        <div class="modal-dialog">
-                      
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">&times;</button>
-                    <h5 class="modal-title">Marquage Tailleur Brodeur</h5>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Prénom Nom :</label>
-                        <div class="col-sm-6">
-                            <select name="prenom_nom" class="form-control">
-                                <option>Choisir Brodeur</option>
-                                <?php while($donne = $repon->fetch()){?>
-                                <option value="<?= $donne['id_tailleur']?>"><?= $donne['prenom_nom']?></option>
-                                <?php } $repons->closeCursor(); ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="clo-sm-4 control-label">Date Marquage</label>
-                        <input type="date" name="date_broderie" class="form-control" value="<?= $date ?>">
-                    </div>
-                </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                <button type="submit" class="btn btn-success" name="bt_br" >Enregistrer</button>
-            </div> 
-            </div>
-        </div>                
-    </div>
-</form>
-<form class="form-horizontal style-form" action="marquage.php" method="POST" >
-    <!-- Modal -->
-    <div class="modal fade" id="ModalBouton" role="dialog">
-        <div class="modal-dialog">
-                      
-            <!-- Modal content-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="btn btn-primary btn-sm" data-dismiss="modal">&times;</button>
-                    <h5 class="modal-title">Marquage Tailleur Boutonnier</h5>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label class="col-sm-4 control-label">Prénom Nom :</label>
-                        <div class="col-sm-6">
-                            <select name="prenom_nom" class="form-control">
-                                <option>Choisir Boutonnier</option>
-                                <?php while($donn = $repo->fetch()){?>
-                                <option value="<?= $donn['id_tailleur']?>"><?= $donn['prenom_nom']?></option>
-                                <?php } $repons->closeCursor(); ?>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label class="clo-sm-4 control-label">Date Marquage</label>
-                        <input type="date" name="date_bouton" class="form-control" value="<?= $date ?>">
-                    </div>
-                </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
-                <button type="submit" class="btn btn-success" name="bt_bo" >Enregistrer</button>
-            </div> 
-            </div>
-        </div>                
-    </div>
-</form>
-        <?php require 'footer.php'; ?>
+<?php require 'footer.php'; ?>

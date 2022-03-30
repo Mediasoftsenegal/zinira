@@ -100,6 +100,7 @@
                         <a class="collapse-item" href="../marquage/tailleur.php">Tailleur</a>
                         <a class="collapse-item" href="../marquage/tarif.php">Tarif</a>
                         <a class="collapse-item" href="../marquage/marquage.php">Marquage</a>
+                        <a class="collapse-item" href="../marquage/honno.php">Honoraire</a>
                     </div>
                 </div>
             </li>
@@ -143,7 +144,7 @@
                     </button>
 
                     <!-- Topbar Search -->
-                   <img src="../img/logo2.png" alt="ZiniraCouture" height="67" width="145.5">
+                   <img src="../../img/logo2.png" alt="ZiniraCouture" height="67" width="145.5">
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">

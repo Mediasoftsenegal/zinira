@@ -20,19 +20,32 @@
     $res = $bdd->prepare($sql);
     $res->execute(array(":id_client"=>$id_client, ":date_facture"=>$date_facture, ":id_societe"=>$id_societe, ":numero_facture"=>$numerofact, ":montant_facture"=>$total, ":montpaye"=>$montpaye, ":etat_facture"=>$etat, ":heure_facture"=>$time, ":date_echeance"=>$date_echeance));
 
+    $s = $bdd->query("SELECT * FROM zen_factures ORDER BY id_facture DESC LIMIT 1");
+    $a = $s->fetch();
+    
+    $id_facture = $a['id_facture'];
     $des[] = $_GET['des'];
     $qtys[] = $_GET['qty'];
     $prices[] = $_GET['price'];
     $article = '';
     $prix_unitaire = '';
     $nombre = '';
-    $article = implode(", ", $des[0]);
-    $prix_unitaire = implode(", ", $prices[0]);
-    $nombre = implode(", ", $qtys[0]);
+    $article = implode(",", $des[0]);
+    $prix_unitaire = implode(",", $prices[0]);
+    $nombre = implode(",", $qtys[0]);
+    $id_articles = $_GET['id_articles'];
 
-    $sql = "INSERT INTO `zen_detail_facture` (`id_client`, `article`, `prix_unitaire`, `nombre`, `montant`, `id_societe`) VALUES (:id_client, :article, :prix_unitaire, :nombre, :montant, 1)";
-    $res = $bdd->prepare($sql);
-    $res->execute(array(":id_client"=>$id_client, ":article"=>$article, ":prix_unitaire"=>$prix_unitaire, ":nombre"=>$nombre, ":montant"=>$total));
+    $sq = "INSERT INTO `zen_detail_facture`(`id_facture`, `id_client`, `article`, `prix_unitaire`, `nombre`, `montant`, `id_societe`, `id_article`) VALUES (:id_facture, :id_client, :article, :prix_unitaire, :nombre, :montant, 1, :id_article)";
+    $re = $bdd->prepare($sq);
+    $ea = $re->execute(array(":id_facture"=>$id_facture, ":id_client"=>$id_client, ":article"=>$article, ":prix_unitaire"=>$prix_unitaire, ":nombre"=>$nombre, ":montant"=>$total, ":id_article"=>$id_articles  ));
+
+    $id_article = explode(",",$id_articles);
+    foreach($id_article as $i => $key):
+        $i>0;
+        $asd = "INSERT INTO zen_marquage (id_article, numero_facture) VALUES (:id_facture, :numero_facture)";
+        $dsa = $bdd->prepare($asd);
+        $dsa->execute(array(":id_facture"=>$id_article[$i], "numero_facture"=>$numerofact));
+    endforeach
 ?>
 <?php //var_dump($_GET) ?>
 <?php
@@ -40,7 +53,7 @@
 
     class PDF extends FPDF{
     function Header(){
-        $this->Image('../img/logo1.png',10,6,50);
+        $this->Image('../../img/logo1.png',10,6,50);
         $this->SetFont('Arial', 'B', 9);
         $this->Cell(10,50,'COUPE-COUTURE-BRODERIE',0,0);
         $this->Cell(-4,60,'HOMME & FEMME',0,0);

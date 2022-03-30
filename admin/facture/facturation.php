@@ -71,7 +71,7 @@
                                     <td><?php echo $datlivr[2].'/'.$datlivr[1].'/'.$datlivr[0]?></td>                                  
                                     <td><?php echo $etat;?></td>
                                     <td align="center">
-                                        <a href="detail.php?det=<?php echo $donnees['id_facture'];?>"><i class="fas fa-edit"></i></a>
+                                        <a href="details.php?det=<?php echo $donnees['id_facture'];?>"><i class="fas fa-edit"></i></a>
                                         <a href="supp.php?mo=<?php echo $donnees['id_facture'];?>"><i class="fas fa-trash"></i></a>
                                     </td>
                                 </tr>

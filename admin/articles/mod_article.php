@@ -1,15 +1,15 @@
 <?php
 
-$id_article=$_GET['mo'];
+$id_article=$_GET['p'];
 $bdd = new PDO('mysql:host=localhost;dbname=remacons_zinira;charset=utf8', 'remacons', 'K330D)A.dbn2Rc');
 
-	$reponse = $bdd->query('SELECT * FROM `zen_produit` INNER JOIN zen_modele ON zen_produit.id_modele = zen_modele.codemod WHERE zen_produit.codep='.$id_article);
+	$reponse = $bdd->query('SELECT * FROM `zen_produit` WHERE codep='.$id_article);
 	$donnees = $reponse->fetch();
 	
 	$des = $donnees['des'];
     $pu = $donnees['pu'];
     $catp = $donnees['catp'];
-	$id_modele = $donnees['libmod'];
+	$id_modele = $donnees['id_modele'];
 	$genre = $donnees['genre'];
 	$couleur = $donnees['couleur'];
 ?>
